@@ -1,0 +1,189 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+h1 {
+    position: absolute;
+    top: 30%;
+    transform: translateY(-50%);
+    font-size: 3rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+h2 {
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 2rem;
+}
+.header p {
+    position: absolute;
+    top: 90%;
+    left: 5%;
+    font-size: 2rem;
+    font-size: 1.5rem;
+}
+
+.container {
+    border: 10px black;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.header {
+    position: relative;
+    background-image: url(http://radiopoznan.fm/kdCmsAssets/render/id/164746/file_name/fotolia_125319866_subscription_monthly_m.jpg);
+    color: rgb(27, 18, 2);
+    height: 100vh;
+    width: 100%;
+    vertical-align: middle;
+}
+.nav {
+    background-color: rgb(226, 128, 37);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    color: rgb(27, 18, 2);
+    height: 10vh;
+    width: 100%;
+}
+
+
+.nav .navEl {
+    padding: 0 20px;
+    transition: .3s ease-in-out;
+    margin: auto;
+    height: 100%;
+    position: relative;
+    line-height: 70px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: rgb(27, 18, 2);
+}
+
+.nav .navEl:hover {
+    color: rgb(243, 235, 231);
+    background-color: rgb(27, 18, 2);
+}
+
+.designer {
+    text-align: center;
+    width: 100%;
+    background-color: rgb(27, 18, 2);
+    color:rgb(243, 235, 231)
+}
+
+.aboutme {
+    background-color: rgb(150, 117, 86);
+    width: 100%
+}
+
+.about {
+    text-align: right;
+    background-color: rgb(150, 117, 86);
+    width: 30%;
+    padding: 40px;
+    box-sizing: border-box;
+    overflow: hidden;
+    word-wrap: none;
+}
+.me {
+    text-align: left;
+    color: rgb(220, 223, 185);
+    background-color: rgb(150, 117, 86);
+    width: 70%;
+    padding: 40px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.skills {
+    background-color: rgb(27, 18, 2);
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    justify-content: right;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(220, 223, 185);
+    padding: 40px;
+}
+.skills h3 {
+
+}
+.skillz {
+    background-color:rgb(150, 117, 86);
+    width: 80%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.skillz img {
+    width: 80%;
+    margin: 40px;
+    transition: 0.3s ease-in-out;
+}
+
+.skillz img:hover {
+    transform: scale(1.2);
+}
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(27, 18, 2);
+}
+.port {
+    width: 100%;
+    background-color: rgb(226, 128, 37);
+}
+.design {
+    width:40%;
+}
+.design2 {
+    width: 60%;
+}
+.design img {
+    width: 100%;
+    height: 100%;
+    transition: .3s ease-in-out;
+}
+.design img:hover {
+    transform: scale(0.9) rotate(-1deg);
+}
+.design2 img:hover {
+    transform: scale(0.9) rotate(1deg);
+}
+.design2 img {
+    width: 100%;
+    height: 100%;
+    transition: .3s ease-in-out;
+}
+.contact h3 {
+    font-size: 2.5rem;
+}
+.contact {
+    width: 100%;
+    background-color: rgb(150, 117, 86);
+    font-size: 1.5rem;
+}
+.email {
+    padding: 40px;
+    text-align:left ;
+}
+.footer {
+    text-align: center;
+    width:100%;
+    background-color: rgb(27, 18, 2);
+    padding: 30px;
+    color: rgb(243, 235, 231);
+    font-size: 1rem;
+}
