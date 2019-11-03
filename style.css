@@ -90,7 +90,6 @@ h2 {
     text-align: right;
     background-color: rgb(150, 117, 86);
     width: 30%;
-    padding: 40px;
     box-sizing: border-box;
     overflow: hidden;
     word-wrap: none;
@@ -100,7 +99,7 @@ h2 {
     color: rgb(220, 223, 185);
     background-color: rgb(150, 117, 86);
     width: 70%;
-    padding: 40px;
+    padding: 0px 40px 40px;
     box-sizing: border-box;
     overflow: hidden;
 }
